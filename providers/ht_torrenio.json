@@ -1,0 +1,51 @@
+{
+  "ht_torrentio": {
+      "anime_keywords": "{imdb_id}:{season:2}:{episode:2}",
+      "anime_query": "https://torrentio.strem.fun/stream/series/QUERY.json",
+      "api_format": {
+        "info_hash": "infoHash",
+        "name": "title",
+        "quality": "quality",
+        "size": "size",
+        "seeds": "seeds",
+        "results": "streams",
+        "torrent": "torrent"
+      },
+      "base_url": "http://127.0.0.1:8989?proxyUrl=",
+      "color": "FF3860BB",
+      "enabled": true,
+      "general_extra": null,
+      "general_keywords": "{imdb_id}",
+      "general_query": "https://torrentio.strem.fun/stream/movie/QUERY.json",
+      "is_api": true,
+      "language": null,
+      "languages": "en",
+      "login_failed": "",
+      "login_object": "",
+      "login_path": null,
+      "movie_extra": "search_string",
+      "movie_keywords": "{imdb_id}",
+      "movie_query": "https://torrentio.strem.fun/stream/movie/QUERY.json",
+      "name": "HT_TORRENTIO",
+      "parser": {
+          "infohash": null,
+          "name": null,
+          "peers": null,
+          "row": null,
+          "seeds": null,
+          "size": null,
+          "torrent": null
+      },
+      "predefined": true,
+      "private": false,
+      "remove_special_characters" : "'",
+      "season_extra": null,
+      "season_keywords": "{imdb_id}:{season:2}:{episode:2}",
+      "season_query": "https://torrentio.strem.fun/stream/series/QUERY.json",
+      "separator": "+",
+      "show_query": "https://torrentio.strem.fun/stream/series/QUERY.json",
+      "subpage": null,
+      "tv_extra": null,
+      "tv_keywords": "{imdb_id}:{season:2}:{episode:2}"
+  }
+}
